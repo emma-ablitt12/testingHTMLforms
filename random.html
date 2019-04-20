@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Random Questions</title>
+</head>
+
+<body>
+
+	<h1>Random Questions</h1>
+
+	<form>
+		<section class="computingQuestions">
+			<span>What term describes an integer value used for signalling among processes ?</span>
+			<br>
+			<br>
+
+			<input type="radio" name="choose" id="MessageNew" value="MessageNew">
+			<label for="MessageNew">MessageNew</label>
+
+			<input type="radio" name="choose" id="Mutex" value="Mutex">
+			<label for="Mutex">Mutex</label>
+
+			<input type="radio" name="choose" id="None" value="None">
+			<label for="None">None of the above</label>
+
+		</section>
+
+		<br>
+		<br>
+
+		<section class="foodQuestion">
+			<span>What are all the example of dairy ?</span>
+
+			<br>
+			<br>
+
+			<input type="checkbox" name="pick" id="milk" value="milk">
+			<label for="milk">Milk</label>
+
+			<input type="checkbox" name="pick" id="cheese" value="cheese">
+			<label for="cheese">Cheese</label>
+
+			<input type="checkbox" name="pick" id="salmon" value="salmon">
+			<label for="salmon">Salmon</label>
+
+			<input type="checkbox" name="pick" id="yoghurt" value="yoghurt">
+			<label for="yoghurt">Yoghurt</label>
+		</section>
+
+		<br>
+		<br>
+
+		<section class="trivia">
+
+			<label for="amount">How many Wonders of the World are there ?</label>
+			<input type="number" name="amount" id="amount" step="1">
+
+		</section>
+
+		<br>
+		<br>
+
+		<section class="weather">
+			<label for="tempature">What is your favourite temperature ?</label>
+			<br>
+			<br>
+			<span>Very Cold</span>
+
+			<input type="range" name="temperature" id="temperature" value="3" min="1" max="5">
+			<span>Very Hot</span>
+		</section>
+
+		<br>
+		<br>
+
+		<section class="bun-type">
+			<label for="bun">What is your favourite type of burger bun ?</label>
+			<select name="bun" id="bun">
+				<option value="sesame">Sesame</option>
+				<option value="potato">Potato</option>
+				<option value="brioche">Brioche</option>
+				<option value="pretzel">Pretzel</option>
+			</select>
+		</section>
+
+		<br>
+		<br>
+		<section class="country">
+			<label for="favCountry">What is your favourite country ?</label>
+			<input list="countries" name="favCountry" id="favCountry">
+			<datalist id="countries">
+			
+				<option value="Australia">Australia</option>
+				<option value="Austria">Austria</option>
+				<option value="Belguim">Belguim</option>
+				<option value="Canada">Canada</option>
+				<option value="Costa Rica">Costa Rics</option>
+				<option value="Denmark">Denmark</option>
+				<option value="Finland">Finland</option>
+				<option value="Germany">Germany</option>
+				<option value="Iceland">Iceland</option>
+				<option value="Ireland">Ireland</option>
+				<option value="Israel">Israel</option>
+				<option value="Luxembourg">Luxembourg</option>
+				<option value="Netherlands">Netherlands</option>
+				<option value="Newzealand">New Zealand</option>
+				<option value="Norway">Norway</option>
+				<option value="Sweden">Sweden</option>
+				<option value="Switzerland">Switzerland</option>
+				<option value="United Arab Emirates">United Arab Emirates</option>
+				<option value="United Kingdom">United Kingdom</option>
+				<option value="United States">United States</option>
+				
+			</datalist>
+		</section>
+
+		<br>
+		<br>
+
+		<section class="extra-info">
+			<label for="extra">Any other cool questions I should ask ?</label>
+			<br>
+			<br>
+			<textarea id="extra" name="extra" rows="3" cols="40">	
+			</textarea>
+
+		</section>
+
+		<br>
+		<br>
+		<br>
+	</form>
+	<form action="./login.html">
+			<input type="submit" class="button_active" onclick="location.href='./login.html';"/>
+	</form>
+</body>
+</html>
